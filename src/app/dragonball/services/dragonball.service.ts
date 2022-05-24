@@ -23,5 +23,6 @@ export class DragonBallService {
 
     agregarPersonaje( personaje: Personaje ){
         this._personajes.push(personaje);
+        
     }
 }
